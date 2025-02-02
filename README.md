@@ -1,5 +1,13 @@
 # Rating-to-Comments
 
+## Apple Music Version
+
+It looks like the old AppleScript (with very little modification) still works with Apple Music, so I've created an Apple Shortcuts script from it. 
+
+You can access it from this link: <https://www.icloud.com/shortcuts/394a0071a0ed4144bab7f284a408aa1a>
+
+## Legacy iTunes Version
+
 Back in 2010 I've written my first AppleScript for iTunes to move the rating "stars" from iTunes to MP3 Tags, to use it in Serato.
 
 Here's the original post from Juli 8th, 2010 (in german):

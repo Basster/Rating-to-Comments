@@ -1,15 +1,15 @@
 (*
-"Copy Rating to Comment" for iTunes
+"Copy Rating to Comment" for Apple Music
 written by Ole Rößner
 oroessner@gmail.com
 July 8, 2010
 *)
 
 tell application "System Events"
-if (get name of every process) contains "iTunes" then set okflag to true
+if (get name of every process) contains "Music" then set okflag to true
 end tell
-if okflag then -- iTunes is running, let's go
-  tell application "iTunes.app"
+if okflag then -- Music is running, let's go
+  tell application "Music.app"
     set thePlaylist to the front window's «class pPly»
 
     -- which tracks to use?
